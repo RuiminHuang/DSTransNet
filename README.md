@@ -10,6 +10,9 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
 ## The network
 
 ![Figure2](./figures/Figure2.png)
+![Figure3](./figures/Figure3.png)
+![Figure4](./figures/Figure4.png)
+![Figure5](./figures/Figure5.png)
 
 - [The network](#the-network)
 - [Installation](#installation)
