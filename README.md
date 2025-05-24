@@ -20,6 +20,7 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
 - [Test](#test)
 - [Model Zoo and Benchmark](#model-zoo-and-benchmark)
   - [Leaderboard](#leaderboard)
+  - [Visualization](#visualization)
   - [Model Zoo](#model-zoo)
 - [Citation](#citation)
 
@@ -54,6 +55,10 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 ## Model Zoo and Benchmark
 
 ### Leaderboard
+
+### Visualization
+![Figure8](./figures/Figure8.png)
+2D visualization of detection results across different methods on representative images from SIRST and IRSTD1K datasets. Blue, yellow, and red circles denote correct detections, missed detections, and false alarms, respectively.
 
 ### Model Zoo
 
