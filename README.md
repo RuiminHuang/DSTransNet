@@ -8,7 +8,7 @@
 The official implementation of the paper "Dynamic Feature Selection: A Novel Network with Feature Enhancement and Dynamic Attention for Infrared Small Target Detection" in PyTorch.
 
 ## Contents
-
+- [Introduction](#introduction)
 - [The network](#the-network)
   - [Overall Pipeline](#overall-pipeline)
   - [Core Module](#core-module)
@@ -24,7 +24,11 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
 - [Citation](#citation)
 
 
+## Introduction
+
+
 ## The network
+![Figure1](./figures/Figure1.png)
 
 ### Overall Pipeline
 ![Figure2](./figures/Figure2.png)
