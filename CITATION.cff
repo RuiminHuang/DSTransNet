@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this software using the following metadata."
+title: "DSTransNet"
+version: 1.0.0
+doi:
+authors:
+  - family-names: "Huang"
+    given-names: "Ruimin"
+    orcid: "https://orcid.org/0009-0009-2645-0054"
+license: Apache-2.0
+repository-code: "https://github.com/RuiminHuang/DSTransNet"
+date-released: 2025-05-24
