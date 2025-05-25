@@ -12,7 +12,7 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
 - [The network](#the-network)
   - [Overall Pipeline](#overall-pipeline)
   - [Core Module](#core-module)
-- [:rocket:Installation](#installation)
+- [Installation](#installation)
 - [Dataset Preparation](#dataset-preparation)
   - [Datasets Link](#datasets-link)
   - [File Structure](#file-structure)
@@ -40,9 +40,9 @@ Overall architecture of the proposed DSTransNet. It incorporates three stages. T
 Proposed RDSF module. It serves to suppress false alarms similar to small targets and enhance real small target features.
 
 
-## :rocket:Installation
+## Installation
 
-
+:rocket:
 
 
 
