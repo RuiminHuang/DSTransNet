@@ -50,6 +50,28 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 
 ### File Structure
 
+```
+|- datasets
+   |- NUAA
+      |-trainval
+        |-images
+          |-Misc_1.png
+          ......
+        |-masks
+          |-Misc_1.png
+          ......
+      |-test
+        |-images
+          |-Misc_50.png
+          ......
+        |-masks
+          |-Misc_50.png
+          ......
+   |-IRSTD1k
+   |-NUDT
+   |-SIRSTAUG
+```
+
 ### Datasets Link
 The dataset comes from this [GitHub repository](https://github.com/GrokCV/SeRankDet). The datasets used in this project and the dataset split files can be downloaded from the following links:
 
