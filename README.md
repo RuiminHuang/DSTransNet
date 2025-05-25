@@ -12,7 +12,7 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
 - [The network](#the-network)
   - [Overall Pipeline](#overall-pipeline)
   - [Core Module](#core-module)
-- [:rocket:Installation](#:rocket:installation)
+- [:rocket:Installation](#installation)
 - [Dataset Preparation](#dataset-preparation)
   - [Datasets Link](#datasets-link)
   - [File Structure](#file-structure)
