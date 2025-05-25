@@ -67,8 +67,8 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
             |-masks
                 |-Misc_50.png
                 ......
-    |-IRSTD1k
     |-NUDT
+    |-IRSTD1k
     |-SIRSTAUG
 ```
 
