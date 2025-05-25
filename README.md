@@ -44,9 +44,9 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 
 :rocket:
 
-
-
 ## Dataset Preparation
+
+:bar_chart:
 
 ### File Structure
 
@@ -54,7 +54,11 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 
 ## Training
 
+:computer:
+
 ## Test
+
+:movie_camera:
 
 ## Model Zoo and Benchmark
 
