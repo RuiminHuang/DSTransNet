@@ -52,6 +52,23 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 
 ### Datasets Link
 
+The dataset comes from this Github [repository](https://github.com/GrokCV/SeRankDet).
+
+The datasets used in this project and the dataset split files can be downloaded from the following links:
+
+* SIRST Dataset
+  * [Baidu Netdisk](https://pan.baidu.com/s/1LgnBKcE8Cqlay5GnXfUaLA?pwd=grok)
+  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEgG0VEoH3nDbiWDA?e=gkUW2W)
+* NUDT-SIRST Dataset
+  * [Baidu Netdisk](https://pan.baidu.com/s/16BbL9H38cIcvaBh4tPNTCw?pwd=grok)
+  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEdBMrQDFM1Vi24DQ?e=vBNoN4)
+* IRSTD1K Dataset
+  * [Baidu Netdisk](https://pan.baidu.com/s/1nRoZu1eI9BLnpmsxw0Kdwg?pwd=grok)
+  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEepi2ipymni0amNQ?e=XZILFh)
+* SIRST-AUG Dataset
+  * [Baidu Netdisk](https://pan.baidu.com/s/1_kAocokYSclQNf_ZLWPIhQ?pwd=grok)
+  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEfdtbrZhLsbd0ITg?e=thyA6h)
+
 ## Training
 
 :computer:
