@@ -42,6 +42,22 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 
 ## Installation
 
+* Step 1. Clone the repository
+
+```shell
+git clone git@github.com:RuiminHuang/DSTransNet.git
+cd DSTransNet
+```
+
+* Step 2. Create environment and install dependencies
+
+```shell
+conda create --name DSTransNet python=3.12
+conda activate DSTransNet
+conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+pip install tensorboard==2.19.0
+pip install tqdm==4.65.0
+```
 
 
 ## Dataset Preparation
