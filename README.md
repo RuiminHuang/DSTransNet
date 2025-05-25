@@ -18,7 +18,7 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
   - [File Structure](#file-structure)
 - [:computer:Training](#training)
 - [:movie_camera:Test](#test)
-- [Model Zoo and Benchmark](#model-zoo-and-benchmark)
+- [Benchmark and Model Zoo](#benchmark-and-model-zoo)
   - [Leaderboard](#leaderboard)
   - [Visualization](#visualization)
   - [Model Zoo](#model-zoo)
@@ -95,7 +95,7 @@ The dataset comes from [this GitHub repository](https://github.com/GrokCV/SeRank
 ## Test
 
 
-## Model Zoo and Benchmark
+## Benchmark and Model Zoo
 
 ### Leaderboard
 
