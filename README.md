@@ -63,3 +63,18 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 ### Model Zoo
 
 ## Citation
+
+If you find the code useful, please consider citing our paper using the following BibTeX entry.
+
+```bibtex
+@article{huang2025DSTransNet,
+  title={Dynamic Feature Selection: A Novel Network with Feature Enhancement and Dynamic Attention for Infrared Small Target Detection},
+  journal={}, 
+  author={Ruimin, Huang and Jun, Huang and Yong, Ma and Fan, Fan and Yiming, Zhu},
+  year={2025},
+  volume={},
+  number={},
+  pages={}
+}
+```
+
