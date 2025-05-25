@@ -12,12 +12,12 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
 - [The network](#the-network)
   - [Overall Pipeline](#overall-pipeline)
   - [Core Module](#core-module)
-- [Installation](#installation)
-- [Dataset Preparation](#dataset-preparation)
+- [:rocket:Installation](#installation)
+- [:bar_chart:Dataset Preparation](#dataset-preparation)
   - [Datasets Link](#datasets-link)
   - [File Structure](#file-structure)
-- [Training](#training)
-- [Test](#test)
+- [:computer:Training](#training)
+- [:movie_camera:Test](#test)
 - [Model Zoo and Benchmark](#model-zoo-and-benchmark)
   - [Leaderboard](#leaderboard)
   - [Visualization](#visualization)
@@ -42,15 +42,10 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 
 ## Installation
 
-:rocket:
-
-
-
 
 
 ## Dataset Preparation
 
-:bar_chart:
 
 ### Datasets Link
 The dataset comes from [this GitHub repository](https://github.com/GrokCV/SeRankDet). The datasets used in this project and the dataset split files can be downloaded from the following links:
@@ -96,11 +91,9 @@ The dataset comes from [this GitHub repository](https://github.com/GrokCV/SeRank
 
 ## Training
 
-:computer:
 
 ## Test
 
-:movie_camera:
 
 ## Model Zoo and Benchmark
 
