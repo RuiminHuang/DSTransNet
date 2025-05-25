@@ -50,26 +50,26 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 
 ### File Structure
 
-```
+```shell
 |- datasets
-   |- NUAA
-      |-trainval
-        |-images
-          |-Misc_1.png
-          ......
-        |-masks
-          |-Misc_1.png
-          ......
-      |-test
-        |-images
-          |-Misc_50.png
-          ......
-        |-masks
-          |-Misc_50.png
-          ......
-   |-IRSTD1k
-   |-NUDT
-   |-SIRSTAUG
+    |- NUAA
+        |-trainval
+            |-images
+                |-Misc_1.png
+                ......
+            |-masks
+                |-Misc_1.png
+                ......
+        |-test
+            |-images
+                |-Misc_50.png
+                ......
+            |-masks
+                |-Misc_50.png
+                ......
+    |-IRSTD1k
+    |-NUDT
+    |-SIRSTAUG
 ```
 
 ### Datasets Link
