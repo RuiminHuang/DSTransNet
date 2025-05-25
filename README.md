@@ -14,8 +14,8 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
   - [Core Module](#core-module)
 - [Installation](#installation)
 - [Dataset Preparation](#dataset-preparation)
-  - [File Structure](#file-structure)
   - [Datasets Link](#datasets-link)
+  - [File Structure](#file-structure)
 - [Training](#training)
 - [Test](#test)
 - [Model Zoo and Benchmark](#model-zoo-and-benchmark)
@@ -44,9 +44,30 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 
 :rocket:
 
+
+
+
+
 ## Dataset Preparation
 
 :bar_chart:
+
+### Datasets Link
+The dataset comes from this [GitHub repository](https://github.com/GrokCV/SeRankDet). The datasets used in this project and the dataset split files can be downloaded from the following links:
+
+* SIRST Dataset
+  * [Baidu Netdisk](https://pan.baidu.com/s/1LgnBKcE8Cqlay5GnXfUaLA?pwd=grok)
+  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEgG0VEoH3nDbiWDA?e=gkUW2W)
+* NUDT-SIRST Dataset
+  * [Baidu Netdisk](https://pan.baidu.com/s/16BbL9H38cIcvaBh4tPNTCw?pwd=grok)
+  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEdBMrQDFM1Vi24DQ?e=vBNoN4)
+* IRSTD1K Dataset
+  * [Baidu Netdisk](https://pan.baidu.com/s/1nRoZu1eI9BLnpmsxw0Kdwg?pwd=grok)
+  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEepi2ipymni0amNQ?e=XZILFh)
+* SIRST-AUG Dataset
+  * [Baidu Netdisk](https://pan.baidu.com/s/1_kAocokYSclQNf_ZLWPIhQ?pwd=grok)
+  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEfdtbrZhLsbd0ITg?e=thyA6h)
+
 
 ### File Structure
 
@@ -72,21 +93,6 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
     |-SIRSTAUG
 ```
 
-### Datasets Link
-The dataset comes from this [GitHub repository](https://github.com/GrokCV/SeRankDet). The datasets used in this project and the dataset split files can be downloaded from the following links:
-
-* SIRST Dataset
-  * [Baidu Netdisk](https://pan.baidu.com/s/1LgnBKcE8Cqlay5GnXfUaLA?pwd=grok)
-  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEgG0VEoH3nDbiWDA?e=gkUW2W)
-* NUDT-SIRST Dataset
-  * [Baidu Netdisk](https://pan.baidu.com/s/16BbL9H38cIcvaBh4tPNTCw?pwd=grok)
-  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEdBMrQDFM1Vi24DQ?e=vBNoN4)
-* IRSTD1K Dataset
-  * [Baidu Netdisk](https://pan.baidu.com/s/1nRoZu1eI9BLnpmsxw0Kdwg?pwd=grok)
-  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEepi2ipymni0amNQ?e=XZILFh)
-* SIRST-AUG Dataset
-  * [Baidu Netdisk](https://pan.baidu.com/s/1_kAocokYSclQNf_ZLWPIhQ?pwd=grok)
-  * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEfdtbrZhLsbd0ITg?e=thyA6h)
 
 ## Training
 
