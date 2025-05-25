@@ -51,8 +51,7 @@ Proposed RDSF module. It serves to suppress false alarms similar to small target
 ### File Structure
 
 ### Datasets Link
-The dataset comes from this Github [repository](https://github.com/GrokCV/SeRankDet).
-The datasets used in this project and the dataset split files can be downloaded from the following links:
+The dataset comes from this [GitHub repository](https://github.com/GrokCV/SeRankDet). The datasets used in this project and the dataset split files can be downloaded from the following links:
 
 * SIRST Dataset
   * [Baidu Netdisk](https://pan.baidu.com/s/1LgnBKcE8Cqlay5GnXfUaLA?pwd=grok)
