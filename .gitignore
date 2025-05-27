@@ -174,5 +174,4 @@ cython_debug/
 .pypirc
 
 # Train and test log
-logs/DS_TransNet/train/
-logs/DS_TransNet/test/
+logs/DS_TransNet/
