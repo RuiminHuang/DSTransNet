@@ -21,8 +21,8 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
 - [:fire:Train](#train)
 - [:dart:Test](#test)
 - [Benchmark and Model Zoo](#benchmark-and-model-zoo)
-  - [Leaderboard](#leaderboard)
-  - [Visualization](#visualization)
+  - [Quantitative Results](#quantitative-results)
+  - [Qualitative Results](#qualitative-results)
   - [Model Zoo](#model-zoo)
 - [Citation](#citation)
 - [Contact](#contact)
@@ -159,9 +159,18 @@ tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 
 ## Benchmark and Model Zoo
 
-### Leaderboard
+### Quantitative Results
 
-### Visualization
+
+| Datasets      | mIoU (x10(-2)) | nIoU (x10(-2)) | Pd (x10(-2))|  Fa (x10(-6))|
+| ------------- |:-------------:|:-----:|:-----:|:-----:|:-----:|
+| SIRST         | 75.61  |  75.55 | 98.17 | 17.57 |
+| NUDT-SIRST    | 95.03  |  94.84 | 99.53 | 0.46  | 
+| IRSTD-1K      | 68.35  |  67.78 | 93.94 | 19.93 |
+| SIRST-Aug     | 74.67  |  71.18 | 99.86 | 19.54 |
+
+
+### Qualitative Results
 ![Figure8](./figures/Figure8.png)
 2D visualization of detection results across different methods on representative images from SIRST and IRSTD1K datasets. Blue, yellow, and red circles denote correct detections, missed detections, and false alarms, respectively.
 
