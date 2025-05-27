@@ -124,7 +124,7 @@ python train.py
 
 Before training, specify the target datasets in the configuration file:
 
-![train_config](./train_config.png)
+![train_config](./figures/train_config.png)
 
 
 ## Test
@@ -135,7 +135,7 @@ python test.py
 
 Before testing, specify the pre-trained weights and target datasets in the configuration file:
 
-![test_config](./test_config.png)
+![test_config](./figures/test_config.png)
 
 
 
