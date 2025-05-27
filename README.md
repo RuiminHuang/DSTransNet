@@ -127,7 +127,7 @@ The dataset comes from [this GitHub repository](https://github.com/GrokCV/SeRank
 
 ### Model Zoo
 
-Training logs, TensorBoard logs, pre-training weights, and results are available in: [Google Drive](https://drive.google.com/drive/folders/1Cktwh19m4gm0PVY63o_HWHXe6CXkqhOf?usp=sharing). Just download and unzip it to the [log path](./logs/README.md).
+Training logs, TensorBoard logs, pre-training weights, and results are available in: [Google Drive](https://drive.google.com/drive/folders/1Cktwh19m4gm0PVY63o_HWHXe6CXkqhOf?usp=sharing). Just download and unzip it to the [log path](./logs/).
 
 ## Citation
 
