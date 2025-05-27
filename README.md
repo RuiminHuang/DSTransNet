@@ -152,8 +152,8 @@ To view test results, run TensorBoard with:
 tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 ```
 
-![train_log1](./figures/train_log1.png)
-![train_log2](./figures/train_log2.png)
+![train_log1](./figures/test_log1.png)
+![train_log2](./figures/test_log2.png)
 
 
 
