@@ -126,6 +126,14 @@ Before training, specify the target datasets in the configuration file:
 
 ![train_config](./figures/train_config.png)
 
+To view train process, run TensorBoard with:
+
+```shell
+tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
+```
+
+![train_log](./figures/train_log.png)
+
 
 ## Test
 
@@ -136,6 +144,16 @@ python test.py
 Before testing, specify the pre-trained weights and target datasets in the configuration file:
 
 ![test_config](./figures/test_config.png)
+
+
+To view test results, run TensorBoard with:
+
+```shell
+tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
+```
+
+![train_log1](./figures/train_log1.png)
+![train_log2](./figures/train_log2.png)
 
 
 
