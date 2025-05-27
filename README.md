@@ -18,7 +18,7 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
 - [:bar_chart:Dataset Preparation](#dataset-preparation)
   - [Datasets Link](#datasets-link)
   - [File Structure](#file-structure)
-- [:fire:Training](#training)
+- [:fire:Train](#train)
 - [:dart:Test](#test)
 - [Benchmark and Model Zoo](#benchmark-and-model-zoo)
   - [Leaderboard](#leaderboard)
@@ -116,7 +116,7 @@ Before running the code, make sure to update the dataset path in the config file
 
 ![datasets_path](./figures/datasets_path.png)
 
-## Training
+## Train
 
 ```shell
 python train.py
