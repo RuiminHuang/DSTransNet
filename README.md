@@ -118,8 +118,25 @@ Before running the code, make sure to update the dataset path in the config file
 
 ## Training
 
+```shell
+python train.py
+```
+
+Before training, specify the target datasets in the configuration file:
+
+![train_config](./train_config.png)
+
 
 ## Test
+
+```shell
+python test.py
+```
+
+Before testing, specify the target datasets and pre-trained weights in the configuration file:
+
+![test_config](./test_config.png)
+
 
 
 ## Benchmark and Model Zoo
