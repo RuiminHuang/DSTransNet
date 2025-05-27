@@ -28,7 +28,10 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
 
 
 ## Introduction
+<div style="width: 50%">
 ![Figure1](./figures/Figure1.png)
+</div>
+
 The heatmaps illustrate the areas of interest for various layers within the model. Layers subjected to specific analysis are indicated by red dots beneath the figure. (a) infrared image. (b) feature extraction stage, heatmap of focused features. (c) feature selection stage. Areas marked by red borders represent the suppression of false-alarm features, and areas marked by green borders signify the enhancement of small target features. (d) feature fusion-based reconstruction stage. Attention is paid to small target features during the reconstruction process. (e) ground truth label.
 
 ## The Network
