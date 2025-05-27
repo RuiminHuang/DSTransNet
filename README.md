@@ -7,7 +7,7 @@
 
 The official implementation of the paper "Dynamic Feature Selection: A Novel Network with Feature Enhancement and Dynamic Attention for Infrared Small Target Detection" in PyTorch.
 
-> This repository provides **clean and readable** code with **comprehensive test metrics** (Pd, Fa, ROC, and PR curves), serving as an excellent baseline for infrared small target detection (IRSTD) tasks. Its readability and thorough evaluation make it particularly **valuable for beginners and researchers** in the field.
+> This repository provides **clean and readable** code with **comprehensive test metrics** (Pd, Fa, ROC, and PR curves).
 
 ## Contents
 - [Introduction](#introduction)
