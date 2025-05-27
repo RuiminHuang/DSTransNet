@@ -25,6 +25,7 @@ The official implementation of the paper "Dynamic Feature Selection: A Novel Net
   - [Visualization](#visualization)
   - [Model Zoo](#model-zoo)
 - [Citation](#citation)
+- [Contact](#contact)
 
 
 ## Introduction
@@ -127,7 +128,7 @@ The dataset comes from [this GitHub repository](https://github.com/GrokCV/SeRank
 
 ### Model Zoo
 
-Training logs, TensorBoard logs, pre-training weights, and results are available in: [Google Drive](https://drive.google.com/drive/folders/1Cktwh19m4gm0PVY63o_HWHXe6CXkqhOf?usp=sharing). Just download and unzip it to the [log path](./logs/).
+Training logs, TensorBoard logs, pre-training weights, and results are available on [Google Drive](https://drive.google.com/drive/folders/1Cktwh19m4gm0PVY63o_HWHXe6CXkqhOf?usp=sharing). Just download and unzip it to the [log path](./logs/).
 
 ## Citation
 
@@ -145,3 +146,6 @@ If you find the code useful, please consider citing our paper using the followin
 }
 ```
 
+## Contact
+
+Please feel free to raise issues or email to [huang_ruimin@whu.edu.cn](huang_ruimin@whu.edu.cn) for any questions regarding our DSTransNet.
