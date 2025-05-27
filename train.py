@@ -183,10 +183,10 @@ class Trainer(object):
 
         if miou > self.best_miou:
             self.best_miou = miou
-            torch.save(self.net.model, os.path.join(self.log_dir, 'best_miou.pth'))
+            torch.save(self.net.mode.state_dict(), os.path.join(self.log_dir, 'best_miou.pth'))
         if nIoU > self.best_nIoU:
             self.best_nIoU = nIoU
-            torch.save(self.net.model, os.path.join(self.log_dir, 'best_nIoU.pth'))
+            torch.save(self.net.model.state_dict(), os.path.join(self.log_dir, 'best_nIoU.pth'))
         
         self.writer.add_scalar('Losses/val_loss', np.mean(losses), epoch)
         self.writer.add_scalar('Eval/mIoU', miou, epoch)
