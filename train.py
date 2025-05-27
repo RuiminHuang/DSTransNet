@@ -62,14 +62,14 @@ class Trainer(object):
         self.args = args
 
 
-        self.trainset = GrokCV_NUAA_SIRST(mode='train')
-        self.valset = GrokCV_NUAA_SIRST(mode='test')
+        # self.trainset = GrokCV_NUAA_SIRST(mode='train')
+        # self.valset = GrokCV_NUAA_SIRST(mode='test')
         # self.trainset = GrokCV_NUDT_SIRST(mode='train')
         # self.valset = GrokCV_NUDT_SIRST(mode='test')
         # self.trainset = GrokCV_IRSTD_1k(mode='train')
         # self.valset = GrokCV_IRSTD_1k(mode='test')
-        # self.trainset = GrokCV_SIRST_Aug(mode='train')
-        # self.valset = GrokCV_SIRST_Aug(mode='test')
+        self.trainset = GrokCV_SIRST_Aug(mode='train')
+        self.valset = GrokCV_SIRST_Aug(mode='test')
         
         # self.train_data_loader = Data.DataLoader(self.trainset, batch_size=args.batch_size, shuffle=True, pin_memory=True, num_workers=8, prefetch_factor=4)
         # self.val_data_loader = Data.DataLoader(self.valset, batch_size=args.batch_size, shuffle=True, pin_memory=True, num_workers=8, prefetch_factor=4)
