@@ -133,7 +133,7 @@ Before training, specify the target datasets in the configuration file:
 python test.py
 ```
 
-Before testing, specify the target datasets and pre-trained weights in the configuration file:
+Before testing, specify the pre-trained weights and target datasets in the configuration file:
 
 ![test_config](./test_config.png)
 
