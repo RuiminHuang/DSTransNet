@@ -27,16 +27,16 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
 - [Citation](#citation)
 - [Contact](#contact)
 
-
+---
 
 - [:sparkles: Introduction](#introduction)
-- [:triangular_ruler: The Network](#the-network)
-  - [:twisted_rightwards_arrows: Overall Pipeline](#overall-pipeline)
+- [:jigsaw: The Network](#the-network)
+  - [:repeat: Overall Pipeline](#overall-pipeline)
   - [:gear: Core Module](#core-module)
 - [:rocket: Installation](#installation)
 - [:bar_chart: Dataset Preparation](#dataset-preparation)
   - [:link: Datasets Link](#datasets-link)
-  - [:open_file_folder: File Structure](#file-structure)
+  - [:file_folder: File Structure](#file-structure)
 - [:fire: Train](#train)
 - [:dart: Test](#test)
 - [:trophy: Benchmark and Model Zoo](#benchmark-and-model-zoo)
@@ -45,7 +45,6 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
   - [:package: Model Zoo](#model-zoo)
 - [:bookmark_tabs: Citation](#citation)
 - [:email: Contact](#contact)
-
 
 
 ## Introduction
