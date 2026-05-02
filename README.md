@@ -183,14 +183,14 @@ TensorBoard logs, train logs, test logs, pre-trained weights, and test results a
 If you find the code useful, please consider citing our paper using the following BibTeX entry.
 
 ```bibtex
-@article{huang2025DSTransNet,
-  title={Dynamic Feature Selection: A Novel Network with Feature Enhancement and Dynamic Attention for Infrared Small Target Detection},
-  journal={}, 
-  author={Ruimin, Huang and Jun, Huang and Yong, Ma and Fan, Fan and Yiming, Zhu},
+@article{huang2025dstransnet,
+  title={DSTransNet: Dynamic Feature Selection Network With Feature Enhancement and Multiattention for Infrared Small Target Detection},
+  author={Huang, Ruimin and Huang, Jun and Ma, Yong and Fan, Fan and Zhu, Yiming},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={63},
+  pages={1--18},
   year={2025},
-  volume={},
-  number={},
-  pages={}
+  publisher={IEEE}
 }
 ```
 
