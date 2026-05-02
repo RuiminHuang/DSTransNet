@@ -33,7 +33,7 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
 
 ---
 
-## Introduction
+## :sparkles: Introduction
 
 <div align="center">
   <img src="./figures/Figure1.png" width="500" alt="Figure1">
@@ -41,18 +41,18 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
 
 The heatmaps illustrate the areas of interest for various layers within the model. Layers subjected to specific analysis are indicated by red dots beneath the figure. (a) infrared image. (b) feature extraction stage, heatmap of focused features. (c) feature selection stage. Areas marked by red borders represent the suppression of false-alarm features, and areas marked by green borders signify the enhancement of small target features. (d) feature fusion-based reconstruction stage. Attention is paid to small target features during the reconstruction process. (e) ground truth label.
 
-## The Network
+## :building_construction: The Network
 
-### Overall Pipeline
+### :repeat: Overall Pipeline
 ![Figure2](./figures/Figure2.png)
 Overall architecture of the proposed DSTransNet. It incorporates three stages. The feature extraction stage is responsible for finer feature extraction. The feature selection stage aims to suppress false alarms similar to small targets and enhance real small target features. The fusion-based reconstruction stage emphasises small target features and reconstructs the final multi-scale small target mask.
 
-### Core Module
+### :jigsaw: Core Module
 ![Figure4](./figures/Figure4.png)
 Proposed RDSF module. It serves to suppress false alarms similar to small targets and enhance real small target features.
 
 
-## Installation
+## :rocket: Installation
 
 * Step 1. Clone the repository
 
@@ -72,10 +72,10 @@ pip install tqdm==4.65.0
 ```
 
 
-## Dataset Preparation
+## :bar_chart: Dataset Preparation
 
 
-### Datasets Link
+### :link: Datasets Link
 The dataset comes from [this GitHub repository](https://github.com/GrokCV/SeRankDet). The datasets used in this project and the dataset split files can be downloaded from the following links:
 
 * SIRST Dataset
@@ -92,7 +92,7 @@ The dataset comes from [this GitHub repository](https://github.com/GrokCV/SeRank
   * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEfdtbrZhLsbd0ITg?e=thyA6h)
 
 
-### File Structure
+### :file_folder: File Structure
 
 ```shell
 |- datasets
@@ -121,7 +121,7 @@ Before running the code, make sure to update the dataset path in the config file
 
 ![datasets_path](./figures/datasets_path.png)
 
-## Train
+## :fire: Train
 
 ```shell
 python train.py
@@ -140,7 +140,7 @@ tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 ![train_log](./figures/train_log.png)
 
 
-## Test
+## :dart: Test
 
 ```shell
 python test.py
@@ -162,9 +162,9 @@ tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 
 
 
-## Benchmark and Model Zoo
+## trophy: Benchmark and Model Zoo
 
-### Quantitative Results
+### :chart_with_upwards_trend: Quantitative Results
 
 
 | Datasets      | mIoU (x10(-2)) | nIoU (x10(-2)) | Pd (x10(-2))|  Fa (x10(-6))|
@@ -175,15 +175,15 @@ tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 | SIRST-Aug     | 74.67  |  71.18 | 99.86 | 19.54 |
 
 
-### Qualitative Results
+### :framed_picture: Qualitative Results
 ![Figure8](./figures/Figure8.png)
 2D visualization of detection results across different methods on representative images from SIRST and IRSTD1K datasets. Blue, yellow, and red circles denote correct detections, missed detections, and false alarms, respectively.
 
-### Model Zoo
+### :package: Model Zoo
 
 TensorBoard logs, train logs, test logs, pre-trained weights, and test results are available on [Google Drive](https://drive.google.com/drive/folders/1Cktwh19m4gm0PVY63o_HWHXe6CXkqhOf?usp=sharing). Just download and unzip it to the [log path](./logs/).
 
-## Citation
+## :bookmark_tabs: Citation
 
 If you find this repository useful for your research, please consider citing our paper using the following BibTeX entry.
 
@@ -199,13 +199,13 @@ If you find this repository useful for your research, please consider citing our
 }
 ```
 
-## :chart_with_upwards_trend: Star History
+## :star2: Star History
 
 If you find this repository useful for your research, please consider giving it a star.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=RuiminHuang/DSTransNet&type=Date)](https://star-history.com/#RuiminHuang/DSTransNet&Date)
 
-## Contact
+## :email: Contact
 
 Please feel free to raise issues or email to [huang_ruimin@whu.edu.cn](huang_ruimin@whu.edu.cn) for any questions regarding our DSTransNet.
 
