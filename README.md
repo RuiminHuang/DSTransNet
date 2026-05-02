@@ -162,7 +162,7 @@ tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 
 
 
-## trophy: Benchmark and Model Zoo
+## :trophy: Benchmark and Model Zoo
 
 ### :chart_with_upwards_trend: Quantitative Results
 
