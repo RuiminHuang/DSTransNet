@@ -13,9 +13,9 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
 ## Contents
 
 - [:sparkles: Introduction](#introduction)
-- [:brain: The Network](#the-network)
+- [:building_construction: The Network](#the-network)
   - [:repeat: Overall Pipeline](#overall-pipeline)
-  - [:small_blue_diamond: Core Module](#core-module)
+  - [:jigsaw: Core Module](#core-module)
 - [:rocket: Installation](#installation)
 - [:bar_chart: Dataset Preparation](#dataset-preparation)
   - [:link: Datasets Link](#datasets-link)
