@@ -28,6 +28,7 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
   - [:package: Model Zoo](#model-zoo)
 - [:bookmark_tabs: Citation](#citation)
 - [:email: Contact](#contact)
+- [:chart_with_upwards_trend: Star History](#star-history)
 
 ---
 
