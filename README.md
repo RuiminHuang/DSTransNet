@@ -15,7 +15,7 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
 - [:sparkles: Introduction](#introduction)
 - [:jigsaw: The Network](#the-network)
   - [:repeat: Overall Pipeline](#overall-pipeline)
-  - [:gear: Core Module](#core-module)
+  - [:bricks: Core Module](#core-module)
 - [:rocket: Installation](#installation)
 - [:bar_chart: Dataset Preparation](#dataset-preparation)
   - [:link: Datasets Link](#datasets-link)
@@ -27,8 +27,9 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
   - [:framed_picture: Qualitative Results](#qualitative-results)
   - [:package: Model Zoo](#model-zoo)
 - [:bookmark_tabs: Citation](#citation)
+- [:star2: Star History](#star-history)
 - [:email: Contact](#contact)
-- [:chart_with_upwards_trend: Star History](#star-history)
+
 
 ---
 
@@ -184,7 +185,7 @@ TensorBoard logs, train logs, test logs, pre-trained weights, and test results a
 
 ## Citation
 
-If you find the code useful, please consider citing our paper using the following BibTeX entry.
+If you find this repository useful for your research, please consider citing our paper using the following BibTeX entry.
 
 ```bibtex
 @article{huang2025dstransnet,
@@ -198,11 +199,14 @@ If you find the code useful, please consider citing our paper using the followin
 }
 ```
 
+## :chart_with_upwards_trend: Star History
+
+If you find this repository useful for your research, please consider giving it a star.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=RuiminHuang/DSTransNet&type=Date)](https://star-history.com/#RuiminHuang/DSTransNet&Date)
+
 ## Contact
 
 Please feel free to raise issues or email to [huang_ruimin@whu.edu.cn](huang_ruimin@whu.edu.cn) for any questions regarding our DSTransNet.
 
 
-## :chart_with_upwards_trend: Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=RuiminHuang/DSTransNet&type=Date)](https://star-history.com/#RuiminHuang/DSTransNet&Date)
