@@ -12,28 +12,28 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
 
 ## Contents
 
-- [:sparkles: Introduction](#introduction)
-- [:building_construction: The Network](#the-network)
-  - [:repeat: Overall Pipeline](#overall-pipeline)
-  - [:jigsaw: Core Module](#core-module)
-- [:rocket: Installation](#installation)
-- [:bar_chart: Dataset Preparation](#dataset-preparation)
-  - [:link: Datasets Link](#datasets-link)
-  - [:file_folder: File Structure](#file-structure)
-- [:fire: Train](#train)
-- [:dart: Test](#test)
-- [:trophy: Benchmark and Model Zoo](#benchmark-and-model-zoo)
-  - [:chart_with_upwards_trend: Quantitative Results](#quantitative-results)
-  - [:framed_picture: Qualitative Results](#qualitative-results)
-  - [:package: Model Zoo](#model-zoo)
-- [:bookmark_tabs: Citation](#citation)
-- [:star2: Star History](#star-history)
-- [:email: Contact](#contact)
+- [:sparkles: 1. Introduction](#1-introduction)
+- [:building_construction: 2. The Network](#2-the-network)
+  - [:repeat: 2.1 Overall Pipeline](#21-overall-pipeline)
+  - [:jigsaw: 2.2 Core Module](#22-core-module)
+- [:rocket: 3. Installation](#3-installation)
+- [:bar_chart: 4. Dataset Preparation](#4-dataset-preparation)
+  - [:link: 4.1 Datasets Link](#41-datasets-link)
+  - [:file_folder: 4.2 File Structure](#42-file-structure)
+- [:fire: 5. Train](#5-train)
+- [:dart: 6. Test](#6-test)
+- [:trophy: 7. Benchmark and Model Zoo](#7-benchmark-and-model-zoo)
+  - [:chart_with_upwards_trend: 7.1 Quantitative Results](#71-quantitative-results)
+  - [:framed_picture: 7.2 Qualitative Results](#72-qualitative-results)
+  - [:package: 7.3 Model Zoo](#73-model-zoo)
+- [:bookmark_tabs: 8. Citation](#8-citation)
+- [:star2: 9. Star History](#9-star-history)
+- [:email: 10. Contact](#10-contact)
 
 
 ---
 
-## :sparkles: Introduction
+## :sparkles: 1. Introduction
 
 <div align="center">
   <img src="./figures/Figure1.png" width="500" alt="Figure1">
@@ -41,18 +41,18 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
 
 The heatmaps illustrate the areas of interest for various layers within the model. Layers subjected to specific analysis are indicated by red dots beneath the figure. (a) infrared image. (b) feature extraction stage, heatmap of focused features. (c) feature selection stage. Areas marked by red borders represent the suppression of false-alarm features, and areas marked by green borders signify the enhancement of small target features. (d) feature fusion-based reconstruction stage. Attention is paid to small target features during the reconstruction process. (e) ground truth label.
 
-## :building_construction: The Network
+## :building_construction: 2. The Network
 
-### :repeat: Overall Pipeline
+### :repeat: 2.1 Overall Pipeline
 ![Figure2](./figures/Figure2.png)
 Overall architecture of the proposed DSTransNet. It incorporates three stages. The feature extraction stage is responsible for finer feature extraction. The feature selection stage aims to suppress false alarms similar to small targets and enhance real small target features. The fusion-based reconstruction stage emphasises small target features and reconstructs the final multi-scale small target mask.
 
-### :jigsaw: Core Module
+### :jigsaw: 2.2 Core Module
 ![Figure4](./figures/Figure4.png)
 Proposed RDSF module. It serves to suppress false alarms similar to small targets and enhance real small target features.
 
 
-## :rocket: Installation
+## :rocket: 3. Installation
 
 * Step 1. Clone the repository
 
@@ -72,10 +72,10 @@ pip install tqdm==4.65.0
 ```
 
 
-## :bar_chart: Dataset Preparation
+## :bar_chart: 4. Dataset Preparation
 
 
-### :link: Datasets Link
+### :link: 4.1 Datasets Link
 The dataset comes from [this GitHub repository](https://github.com/GrokCV/SeRankDet). The datasets used in this project and the dataset split files can be downloaded from the following links:
 
 * SIRST Dataset
@@ -92,7 +92,7 @@ The dataset comes from [this GitHub repository](https://github.com/GrokCV/SeRank
   * [OneDrive](https://1drv.ms/f/s!AmElF7K4aY9pgYEfdtbrZhLsbd0ITg?e=thyA6h)
 
 
-### :file_folder: File Structure
+### :file_folder: 4.2 File Structure
 
 ```shell
 |- datasets
@@ -121,7 +121,7 @@ Before running the code, make sure to update the dataset path in the config file
 
 ![datasets_path](./figures/datasets_path.png)
 
-## :fire: Train
+## :fire: 5. Train
 
 ```shell
 python train.py
@@ -140,7 +140,7 @@ tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 ![train_log](./figures/train_log.png)
 
 
-## :dart: Test
+## :dart: 6. Test
 
 ```shell
 python test.py
@@ -162,9 +162,9 @@ tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 
 
 
-## :trophy: Benchmark and Model Zoo
+## :trophy: 7. Benchmark and Model Zoo
 
-### :chart_with_upwards_trend: Quantitative Results
+### :chart_with_upwards_trend: 7.1 Quantitative Results
 
 
 | Datasets      | mIoU (x10(-2)) | nIoU (x10(-2)) | Pd (x10(-2))|  Fa (x10(-6))|
@@ -175,15 +175,15 @@ tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 | SIRST-Aug     | 74.67  |  71.18 | 99.86 | 19.54 |
 
 
-### :framed_picture: Qualitative Results
+### :framed_picture: 7.2 Qualitative Results
 ![Figure8](./figures/Figure8.png)
 2D visualization of detection results across different methods on representative images from SIRST and IRSTD1K datasets. Blue, yellow, and red circles denote correct detections, missed detections, and false alarms, respectively.
 
-### :package: Model Zoo
+### :package: 7.3 Model Zoo
 
 TensorBoard logs, train logs, test logs, pre-trained weights, and test results are available on [Google Drive](https://drive.google.com/drive/folders/1Cktwh19m4gm0PVY63o_HWHXe6CXkqhOf?usp=sharing). Just download and unzip it to the [log path](./logs/).
 
-## :bookmark_tabs: Citation
+## :bookmark_tabs: 8. Citation
 
 If you find this repository useful for your research, please consider citing our paper using the following BibTeX entry.
 
@@ -199,13 +199,13 @@ If you find this repository useful for your research, please consider citing our
 }
 ```
 
-## :star2: Star History
+## :star2: 9. Star History
 
 If you find this repository useful for your research, please consider giving it a star.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=RuiminHuang/DSTransNet&type=Date)](https://star-history.com/#RuiminHuang/DSTransNet&Date)
 
-## :email: Contact
+## :email: 10. Contact
 
 Please feel free to raise issues or email to [huang_ruimin@whu.edu.cn](huang_ruimin@whu.edu.cn) for any questions regarding our DSTransNet.
 
