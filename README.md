@@ -11,24 +11,6 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
 > This repository provides **clean and readable** code with **comprehensive test metrics** (Pd, Fa, ROC, and PR curves).
 
 ## Contents
-- [Introduction](#introduction)
-- [The Network](#the-network)
-  - [Overall Pipeline](#overall-pipeline)
-  - [Core Module](#core-module)
-- [:rocket:Installation](#installation)
-- [:bar_chart:Dataset Preparation](#dataset-preparation)
-  - [Datasets Link](#datasets-link)
-  - [File Structure](#file-structure)
-- [:fire:Train](#train)
-- [:dart:Test](#test)
-- [Benchmark and Model Zoo](#benchmark-and-model-zoo)
-  - [Quantitative Results](#quantitative-results)
-  - [Qualitative Results](#qualitative-results)
-  - [Model Zoo](#model-zoo)
-- [Citation](#citation)
-- [Contact](#contact)
-
----
 
 - [:sparkles: Introduction](#introduction)
 - [:jigsaw: The Network](#the-network)
@@ -47,6 +29,7 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
 - [:bookmark_tabs: Citation](#citation)
 - [:email: Contact](#contact)
 
+---
 
 ## Introduction
 
