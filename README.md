@@ -211,6 +211,7 @@ If you find this repository useful for your research, please consider giving it 
 
 ## :email: 10. Contact
 
-Please feel free to raise issues or email to [huang_ruimin@whu.edu.cn](huang_ruimin@whu.edu.cn) for any questions regarding our DSTransNet.
+
+If you have any questions about DSTransNet, please feel free to open an issue, email us at [huang_ruimin@whu.edu.cn](mailto:huang_ruimin@whu.edu.cn), or contact us on WeChat at [vivid-isotope](./figures/vivid-isotope.jpg).
 
 
