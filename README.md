@@ -10,6 +10,10 @@ The official implementation of the paper "DSTransNet: Dynamic Feature Selection 
 
 > This repository provides **clean and readable** code with **comprehensive test metrics** (Pd, Fa, ROC, and PR curves).
 
+## :newspaper: Latest News
+
+- :tada: **2025-11-28**: Our paper has been accepted by IEEE Transactions on Geoscience and Remote Sensing. [[Paper](https://ieeexplore.ieee.org/abstract/document/11271310)] Additional resources will be released in the future. Stay tuned!
+
 ## Contents
 
 - [:sparkles: 1. Introduction](#sparkles-1-introduction)
