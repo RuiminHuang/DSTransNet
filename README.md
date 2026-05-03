@@ -185,7 +185,7 @@ tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 
 ### :package: 7.3 Model Zoo
 
-TensorBoard logs, train logs, test logs, pre-trained weights, and test results are available on [Google Drive](https://drive.google.com/drive/folders/1Cktwh19m4gm0PVY63o_HWHXe6CXkqhOf?usp=sharing). Just download and unzip it to the [log path](./logs/).
+TensorBoard logs, train logs, test logs, pre-trained weights, and test results are available on [Google Drive](https://drive.google.com/drive/folders/1Cktwh19m4gm0PVY63o_HWHXe6CXkqhOf?usp=sharing). Just download and unzip it to the [logs path](./logs/).
 
 ## :bookmark_tabs: 8. Citation
 
