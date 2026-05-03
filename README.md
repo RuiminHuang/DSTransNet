@@ -127,6 +127,8 @@ Before running the code, make sure to update the dataset path in the config file
 
 ## :fire: 5. Train
 
+> For convenience, you can directly test the model with our pre-trained weights from the [Model Zoo](#package-73-model-zoo).
+
 ```shell
 python train.py
 ```
@@ -145,6 +147,8 @@ tensorboard --port=8010 --samples_per_plugin=images=100000 --logdir=./
 
 
 ## :dart: 6. Test
+
+> For convenience, you can directly test the model with our pre-trained weights from the [Model Zoo](#package-73-model-zoo).
 
 ```shell
 python test.py
