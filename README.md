@@ -211,7 +211,7 @@ If you find this repository useful for your research, please consider citing our
 
 If you find this repository useful for your research, please consider giving it a star.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=RuiminHuang/DSTransNet&type=Date)](https://star-history.com/#RuiminHuang/DSTransNet&Date)
+<!-- [![Star History Chart](https://api.star-history.com/svg?repos=RuiminHuang/DSTransNet&type=Date)](https://star-history.com/#RuiminHuang/DSTransNet&Date) -->
 
 ## :email: 10. Contact
 
